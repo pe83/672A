@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>history.replaceState(null,null,'index.html');</script>
+<title>PS4 Offline Host! FW:6.72 V:1.0 By Ali Madhi</title>
+<style>
+body{background-color:#2e8b57;background-size:cover;color:white;font-size:20px;text-align:center;margin:0;overflow:hidden;}
+.msgs{background-color:#2e8b57;height:40px;border:2px solid #2e8b57;font-size:28px;margin:0;padding:5px 0 5px 0;}
+.bottopmsg{display:block;position:absolute;bottom:0px;height:43px;width:1536px;font-size:26px;padding:5px 0 1px 0;}
+
+</style>
+</head>
+<script src="exp_common.js"></script>
+<script src="exp_jailbreak.js"></script>
+<hr>
+<div id=msgs class=msgs>PS4 Offline Host! FW:6.72 V:1.0 By Ali Madhi</div>
+<embed id=myembed1 src="672page1.html" frameborder="0" width="100%" height="647px" style="display:block"></embed>
+
+
+<script>
+function defaultTXT(){msgs.innerHTML="PS4 Offline Host! FW:6.72 V:1.0 By Ali Madhi";}
+function trainerTXT(){msgs.innerHTML="PS4 Offline Host! FW:6.72 V:1.0 By Ali Madhi [Trainers Updated: "+localStorage.TrainerDate+"]";}
+function showTrainer(){localStorage.ps4trn="yes";var Clone = myembed1.cloneNode(true);Clone.setAttribute('src',"672main.html");myembed1.parentNode.replaceChild(Clone,myembed1);}
+function hideTrainer(){localStorage.ps4trn="no";var Clone = myembed1.cloneNode(true);Clone.setAttribute('src',"672page1.html");myembed1.parentNode.replaceChild(Clone,myembed1);}
+window.onload=function(){if(localStorage.ps4trn=="yes")showTrainer();};
+</script>	
+</body>
+</html> 
